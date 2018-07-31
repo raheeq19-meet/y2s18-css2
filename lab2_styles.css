@@ -6,6 +6,7 @@ h1 {
     font-size: 42pt;
     font-family: sans-serif;
     text-align: center;
+
 }
 
 p {
@@ -15,4 +16,18 @@ p {
 
 a {
     color:red;
+}
+
+a:hover{
+	background-color:blue;
+}
+
+#important_paragraph:hover{
+	background-color:yellow;
+	font-size: 40px;
+
+}
+
+.less_important_paragraphs:hover{
+	color:blue;
 }
